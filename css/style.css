@@ -8,7 +8,11 @@
 /* COMMON */
 html {
     font-size: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Whitney', sans-serif;
+}
+
+.mb-3 {
+    margin-bottom: 3em;
 }
 
 .container{
@@ -18,15 +22,24 @@ html {
     /* border: 1px solid orangered; */
 }
 
-img {
-    width: 100%;
-}
-
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+.col {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+
+    /* border: 1px solid purple; */
+}
+
+img {
+    width: 100%;
+}
+
 
 ul {
     list-style: none;
@@ -42,24 +55,27 @@ a {
     font-size: .8em;
 }
 
+.btn-large {
+    padding: .9em 1.8em;
+    border-radius: 50px;
+    font-size: 1em;
+}
 .btn-white {
     background-color: whitesmoke;
-    color: black;
+    color: rgb(24, 24, 24);
 }
+
+.btn-dark {
+    background-color: rgb(24, 24, 24);
+    color:whitesmoke;
+}
+
 
 /* HEADER */
 header.header {
     height: 60px;
 
-    background-color: rgb(0, 110, 255);
-}
-
-.menù-nav .col {
-    float: left;
-    height: 60px;
-    line-height: 60px;
-    
-    /* border: 1px solid purple; */
+    background-color: rgb(49, 97, 223);
 }
 
 .col-logo {
@@ -95,6 +111,40 @@ li.nav-item > a.li-link {
 
 /* MAIN */
 /* banner */
+section.banner-bg-img {
+    /* height: 400px; */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* banner text-align */
+.banner-content-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4.5em 0;
 
-/* /banner */
+    /* border: 1px solid fuchsia; */
+}
+
+div.banner-content-container > .content {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+    /* border: 1px solid rgb(255, 251, 0); */
+}
+
+/* banner text settings*/
+div.content > h1.banner-title {
+    font-size: 2.5em;
+    margin-bottom: .8em;
+}
+
+div.content > p.banner-text { 
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
 /* /MAIN */
