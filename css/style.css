@@ -15,6 +15,10 @@ html {
     margin-bottom: 3em;
 }
 
+.mb-1 {
+    margin-bottom: 1em;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -30,10 +34,13 @@ html {
 
 .col {
     float: left;
-    height: 60px;
-    line-height: 60px;
 
     /* border: 1px solid purple; */
+}
+
+.col-y {
+    height: 60px;
+    line-height: 60px;
 }
 
 img {
@@ -144,6 +151,60 @@ div.content > h1.banner-title {
 div.content > p.banner-text { 
     font-size: 1em;
     font-weight: 400;
+}
+
+/* first-section */
+div.content-section-container {
+    width: 100%;
+    height: 600px; 
+    margin: 0 auto;
+
+    /* border: 1px solid blue; */
+}
+
+div.content-section-container > div.col-img {
+    width: 70%;
+    height: 100%;
+    position: relative;
+
+    /* border: 1px solid brown; */
+}
+
+div.col-img > img {
+    margin-top: 3em;
+    width: 90%;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+div.content-section-container > div.col-content {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    border: 1px solid brown;
+}
+
+div.col-content > div.content {
+    width: 80%;
+    position: absolute;
+    bottom: 80px;
+    right: 5px;
+}
+
+div.content > h2.section-title {
+    line-height: 1.3em;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: rgb(29, 29, 29);
+} 
+
+div.content > p.section-text {
+    line-height: 1.5em;
+    font-size: .9em;
+    font-weight: 400;
+    margin-top: 1.2em;
+    color: rgb(29, 29, 29)
 }
 
 
