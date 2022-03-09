@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-size: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+    /* border: 1px solid orangered; */
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-small {
+    padding: .6em 1em;
+    border-radius: 50px;
+    font-size: .8em;
+}
+
+.btn-white {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* HEADER */
+header.header {
+    height: 60px;
+
+    background-color: rgb(0, 110, 255);
+}
+
+.menù-nav .col {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    
+    /* border: 1px solid purple; */
+}
+
+.col-logo {
+    width: 15%;
+}
+
+div.col-logo > img#logo-img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.col-nav {
+    width: 70%;
+    text-align: center;
+}
+
+.col-btn {
+    text-align: right;
+    width: 15%;
+}
+
+.header-nav ul.nav-list > li {
+    display: inline-block;
+    color: white;
+}
+
+li.nav-item > a.li-link {
+    font-size: .9em;
+    color: inherit;
+    margin-right: 1.5em;
+}
+/* /HEADER */
+
+/* MAIN */
+/* banner */
+
+/* /banner */
+/* /MAIN */
