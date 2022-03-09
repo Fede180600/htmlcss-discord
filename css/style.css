@@ -23,7 +23,7 @@ html {
     width: 80%;
     margin: 0 auto;
 
-    /* border: 1px solid orangered; */
+    border: 1px solid orangered;
 }
 
 .clearfix::after {
@@ -67,6 +67,7 @@ a {
     border-radius: 50px;
     font-size: 1em;
 }
+
 .btn-white {
     background-color: whitesmoke;
     color: rgb(24, 24, 24);
@@ -75,6 +76,11 @@ a {
 .btn-dark {
     background-color: rgb(24, 24, 24);
     color:whitesmoke;
+}
+
+.btn-blue {
+    background-color: rgb(81, 126, 238);
+    color: whitesmoke;
 }
 
 
@@ -163,7 +169,7 @@ div.content-section-container {
 }
 
 div.content-section-container > div.col-img {
-    width: 70%;
+    width: 60%;
     height: 100%;
     position: relative;
 
@@ -180,15 +186,16 @@ div.col-img > img {
 
 div.content-section-container > div.col-content {
     position: relative;
-    width: 30%;
+    width: 40%;
     height: 100%;
-    border: 1px solid brown;
+
+    /* border: 1px solid brown; */
 }
 
 div.col-content > div.content {
     width: 80%;
     position: absolute;
-    bottom: 80px;
+    top: 120px;
     right: 5px;
 }
 
@@ -204,8 +211,41 @@ div.content > p.section-text {
     font-size: .9em;
     font-weight: 400;
     margin-top: 1.2em;
-    color: rgb(29, 29, 29)
+    color: rgb(29, 29, 29);
 }
+/* prefooter */
+div.prefooter {
+    text-align: center;
+    border: 1px solid blue;
+    
+}
+div.prefooter > h2.title-prefooter {
+    line-height: 1.3em;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: rgb(29, 29, 29);
+}
+
+div.prefooter > p.text-prefooter {
+    line-height: 1.5em;
+    font-size: .9em;
+    font-weight: 400;
+    margin-top: 1.2em;
+    color: rgb(29, 29, 29);
+    width: 70%;
+    margin: .5em auto; 
+}
+
+figure.item-big > img {
+    width: 80%;
+}
+
+div.prefooter-bottom > img.stars-img {
+    width: 63%;
+    position: relative;
+    top: 25px;
+}
+
 
 
 /* /MAIN */
